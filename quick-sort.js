@@ -1,5 +1,5 @@
 // using quick sort let sort array [3,7,8,5,2,1,9,5,4]
-
+// https://www.techiedelight.com/quicksort/
 
 function main() {
     const a = [9, - 3, 5, 2, 6, 8, -6, 1, 3];
