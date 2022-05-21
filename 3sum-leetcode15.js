@@ -24,14 +24,12 @@ function threeSum(array) {
                 result.push([array[i], array[left], array[right]]);
                 right--;
                 while (left < right && array[right + 1] == array[right]) right--;
-
             }
 
             if (array[i] + array[left] + array[right] > 0) right--;
             if (array[i] + array[left] + array[right] < 0) left++;
         }
     }
-    console.log(result)
     return result;
 }
 main()
